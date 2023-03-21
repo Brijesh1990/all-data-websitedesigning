@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function test()
+        {
+            document.getElementById("demo").style="color:red; font-size:22px; transition:2s ease all";
+        }
+
+        function test1()
+        {
+            document.getElementById("demo").style="color:black; font-size:16px;";
+        }
+    </script>
+</head>
+<body>
+    
+    <p id="demo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, sequi. Blanditiis, cupiditate provident quos numquam, maiores laboriosam mollitia eaque consectetur enim error doloribus in voluptatem molestiae, itaque omnis id. Totam.</p>
+    <button type="button" onmouseover="test()" onmouseout="test1()">click me</button>
+</body>
+</html>

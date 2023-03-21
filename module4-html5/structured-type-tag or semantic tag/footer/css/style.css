@@ -1,0 +1,191 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.top-header 
+{
+    width: 100%;
+    height: auto;
+    padding: 15px 18px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-bottom: inset 1px lightgray;
+}
+.call-us 
+{
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    margin-left: 15%;
+}
+input[type="text"]
+{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.social-media 
+{
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+.navbar 
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    top: 0;
+    padding: 5px;
+    background-color: black !important;
+    margin-top: 5%;
+}
+.navbar-link li 
+{
+    display: inline-block;
+    font-size: 17px;
+    padding: 5px 15px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar-link a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.active 
+{
+    background-color: red;
+    color: white;
+    padding: 26px 8px;
+}
+
+.dropdown
+{
+    position: relative;
+    width: auto;
+    height: auto;
+  
+}
+.dropdown-menu
+{
+    width: 200px;
+    display: none;
+    position: absolute !important;
+    background-color: black;
+    margin-left: 8%;
+    margin-top: 13% !important;
+
+}
+#dropdown-submenu
+{
+    width: 120px;
+    height: auto;  
+}
+.dropdown:hover .dropdown-menu,.dropdown-menu1 
+{
+   
+    display: block;
+}
+.hero-section
+{
+    width: 90%;
+    height: 350px;
+    background-color: lightgray;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.main-content
+{
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    margin-left: 5%;
+
+}
+
+.leftsidebar
+{
+    width: 45%;
+    height: auto;
+    margin: 8px;
+    padding: 15px;
+    box-shadow: 0px 2px 0px 2px lightgray;
+    float: left;
+    margin-top: 4%;
+}
+
+
+.rightsidebar
+{
+    width: 45%;
+    height: auto;
+    margin: 8px;
+    padding: 15px;
+    box-shadow: 0px 2px 0px 2px lightgray;
+    float: left;
+    margin-top: 4%;
+}
+
+.footer
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 5px 15px;
+    color: white;
+    margin-top: 5%;
+}
+.clearfix
+{
+    clear: both !important;
+}
+
+/* media query : for create a resposive website for diffrenet-2 devices mobile | tablet | laptop | large devices screen *
+
+  types of media query :
+
+   a) screen (website resulation creating resposive content Used for computer screens, tablets, smart-phones etc.)
+   b) speech
+   c) All
+   d) print
+
+*/
+
+/* mobile device resulations */
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+
+} 
+
+/* tablet device resulations */
+@media only screen and (min-width:481px) and (max-width:768px)
+{
+    
+} 
+
+/* laptop device resulations */
+@media only screen and (min-width:769px) and (max-width:1024px)
+{
+    
+} 
+
+/* large device resulations */
+/* @media only screen and (min-width:1025px) and (max-width:1201px)
+{
+    
+}  */
+
+
+@media only screen and (min-width:1025px)
+{
+    
+} 

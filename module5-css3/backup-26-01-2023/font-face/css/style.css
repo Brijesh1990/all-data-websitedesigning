@@ -1,0 +1,64 @@
+@import 'font-face.css';
+*
+{
+    /* font-family: myfont; */
+    /* font-family: myfont1; */
+}
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.img-filter-blur 
+{
+    width: 100%;
+    height: 280px;
+    border: solid 8px yellowgreen;
+    -webkit-filter: drop-shadow(1px 2px 3px red);
+    -moz-filter: drop-shadow(1px 2px 3px red);
+    -o-filter: drop-shadow(1px 2px 3px red);
+    filter:drop-shadow(1px 2px 3px red);
+}
+.img-filter-blur img 
+{
+    width: 100%;
+    height: 280px;
+    -webkit-filter: opacity(0.5);
+    -moz-filter: opacity(0.5);
+    -o-filter: opacity(0.5);
+    filter:opacity(0.5);
+  /* opacity: 0.1; */
+}
+.img-filter-blur img:hover 
+{
+    width: 100%;
+    height: 280px;
+    -webkit-filter: opacity(1);
+    -moz-filter: opacity(1);
+    -o-filter: opacity(1);
+    filter:opacity(1);
+    /* opacity: 1; */
+
+}
+.content
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+    /* font-family: cursive; */
+
+}
+.content h1 
+{
+    font-family: myfont1;
+}
+.content p 
+{
+    font-family: myfont;
+    font-size: 25px;
+}

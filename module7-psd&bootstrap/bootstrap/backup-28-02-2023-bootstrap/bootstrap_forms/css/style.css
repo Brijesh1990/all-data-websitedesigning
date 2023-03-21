@@ -1,0 +1,30 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background: url('../images/login-bg.png') no-repeat;
+    background-size: cover;
+}
+.navbar 
+{
+    width: 100%;
+    height: auto;
+    background-color: #ecf5fb;
+}
+.navbar-brand img 
+{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
+.login
+{
+    width: 35%;
+    height: auto;
+    background-color: #edf5fb;
+    border-radius: 10px;
+    border: solid #4c92be 2px;
+}

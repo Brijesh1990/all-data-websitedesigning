@@ -1,0 +1,129 @@
+/* types of media query
+
+Value 	          Description
+all 	          Used for all media type devices
+print 	          Used for printers
+screen 	          Used for computer screens, tablets, smart-phones etc.
+speech 	          Used for screenreaders that "reads" the page out loud
+
+*/
+/* mobiles or smarts phone */
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+    body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.top-header 
+{
+    width: 100% !important;
+    height: auto;
+    padding: 15px 18px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+    border-bottom: inset 1px lightgray;
+    display: block !important;
+}
+.call-us 
+{
+    width: 80% !important;
+    height: auto !important;
+    margin: auto;
+    font-size: 18px;
+}
+.search 
+{
+    width: 80% !important;
+    height: auto !important;
+    margin: auto;
+}
+input[type="text"]
+{
+    width: 80% !important;
+    height: auto !important;
+    padding: 10px;
+    border-radius: 5px;
+}
+.social-media 
+{
+    width: 80% !important;
+    height: auto !important;
+    margin: auto;
+    margin-left: 10% !important;
+    font-size: 20px !important;
+    letter-spacing: 2px !important;
+}
+
+.navbar 
+{
+    width: 100%;
+    height: auto;
+    margin: 0 !important;
+    padding: 15px !important;
+    background-color: black !important;
+    margin-top: 24% !important;
+}
+.navbar-link li 
+{
+    display: block !important;
+    font-size: 17px;
+    padding: 5px 15px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.hero-section
+{
+    width: 90%;
+    height: 200px !important;
+    background-color: lightgray;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.hero-section-txt p
+{
+    display: none !important;
+}
+.hero-section-txt h1 
+{
+    text-align: center;
+    padding: 0px 25px;
+    display: none !important;
+} 
+#our-client h1,#our-gallery h1,#our-team h1,#contact-us h1 
+{
+    text-align: center;
+    font-size: 25px !important;
+    letter-spacing: 2px;
+}
+#our-client hr,#our-gallery hr,#our-team hr,#contact-us hr 
+{
+    width: 25% !important;
+    height: auto;
+    border: solid 2px;
+}
+}
+
+/* tablet or ipad */
+@media only screen and (min-width:481px) and (max-width:768px)
+{
+
+}
+/* laptop  or desktop */
+@media only screen and (min-width:769px) and (max-width:1024px)
+{
+
+}
+
+/* large desktop */
+
+@media only screen and (min-width:1025px) and (max-width:1201px)
+{
+
+}

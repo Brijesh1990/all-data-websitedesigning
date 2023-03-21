@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .navbar 
+        {
+            width: 100%;
+            height: auto;
+            margin: auto;
+            padding: 5px;
+            background-color: black;
+        }
+        .navbar ul li 
+        {
+            display: inline-block;
+            padding: 1px 15px;
+        }
+        .navbar a 
+        {
+            text-decoration: none;
+            color: white;
+        }
+        .navbar a:hover 
+        {
+            color: red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .navbar a:active 
+        {
+            color: green;
+        }
+        /* .navbar a:visited 
+        {
+            color: yellow;
+
+        } */
+        .navbar a:link 
+        {
+            color: tomato;
+
+        }
+        .active 
+        {
+            background-color: yellowgreen;
+            padding: 23px 12px;
+            color: red !important;
+        }
+
+        .navbar a::after 
+        {
+            content: "|";
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Kids Items</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>

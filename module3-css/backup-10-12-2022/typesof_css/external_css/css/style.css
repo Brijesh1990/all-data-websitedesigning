@@ -1,0 +1,88 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* gradients color schema */
+    width: 100%;
+    height: 578px;
+    background: -webkit-linear-gradient(left ,blue 50%,orange 50%);
+    background: -moz-linear-gradient(left ,blue 50%,orange 50%);
+    background: -o-linear-gradient(left ,blue 50%,orange 50%);
+    background: -IE-linear-gradient(left ,blue 50%,orange 50%);
+    background: linear-gradient(to right, blue 50%,orange 50%);
+}
+
+.main
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+.main h1,p
+{
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+    color: white;
+    margin-top: 0%;
+    text-align: justify;
+    margin-top: 15% !important;
+    position: absolute;
+    animation: fadeInLeft 2s alternate;
+}
+.main p 
+{
+    margin-top: 18% !important;
+}
+.login 
+{
+    width: 20%;
+    height: 500px;
+    /* background-color: white; */
+    /* background-color: rgba(100,0,0,0.3); */
+    background: url('../images/login.gif') no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 500px;
+    float: right;
+    margin-right: 15%;
+    margin-top: 3%;
+    padding: 15px 45px;
+    animation: fadeInLeft 1s alternate;
+}
+.login h2 
+{
+    font-size: 32px;
+    animation: heartBeat 2s infinite;
+}
+::placeholder
+{
+    color: gray;
+    font-size: 12px;
+    animation: heartBeat 2s infinite;
+}
+::placeholder:hover 
+{
+    font-size: 16px;
+    transition: 1s ease all;
+}
+input[type="text"],input[type="password"]
+{
+width: 250px;
+height: auto;
+padding: 7px;
+border: solid 1px gray;
+border-radius: 15px;
+
+}
+input[type="submit"]
+{
+width: 250px;
+height: auto;
+padding: 7px;
+border:none;
+border-radius: 15px;
+background-color: yellowgreen;
+margin-top: 4% !important;
+}

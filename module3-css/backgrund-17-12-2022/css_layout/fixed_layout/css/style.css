@@ -1,0 +1,75 @@
+/* fixed layout : width:1024px 
+                  height:678px; 
+                  this type of layout i called fixed layout
+*/
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: lightgray;
+}
+html h1,h2,h3,h4,h5,h6 
+{
+    margin: 0;
+    padding: 0;
+
+}
+ html ul li 
+ {
+    margin: 0;
+    padding: 0;
+ }
+ .flipkart-header
+ {
+    width: 1380px;
+    height: 45px;
+    background-color: #2874f0;
+    position: sticky;
+    top: 0;
+ }
+
+
+ .flipkart-navbar 
+ {
+    width: 1380px;
+    height: 120px;
+    background-color: white;
+    
+ }
+ .flipkart-hero-section 
+ {
+    width: 1300px;
+    height: 350px;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+
+ }
+ .flipkart-hero-section img 
+ {
+    width: 1300px;
+    height: 350px;
+ }
+ .flipkart-content 
+ {
+    width:1380px;
+    height: auto;
+    margin-top: 10px;
+ }
+ .flipkart-product-section
+ {
+    width: 1360px;
+    height: 250px;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: 10px;
+ }
+
+ .flipkart-footer 
+ {
+    width: 1380px;
+    height: 350px;
+    background-color: blue;
+    margin-top: 10px;
+ }

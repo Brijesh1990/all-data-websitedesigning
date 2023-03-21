@@ -1,0 +1,22 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: url('../images/back.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    filter: brightness(20%) !important;
+}
+
+.content 
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    padding: 15px;
+}

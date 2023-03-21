@@ -1,0 +1,37 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#navbar 
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 8px;
+
+}
+
+#navbar a 
+{
+    margin-left: 75%;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#login 
+{
+    width: 30%;
+    height: auto;
+    background-color: gray;
+    color: white;
+    margin: auto;
+    padding: 25px;
+    margin-top: 4%;
+    display: none;
+}

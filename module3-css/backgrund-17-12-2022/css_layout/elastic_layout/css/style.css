@@ -1,0 +1,78 @@
+/* elastic layout : width:64em 
+height:12em; 
+this type of layout i called elastic layout
+
+1px=1/16em
+
+*/
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+background-color: lightgray;
+}
+html h1,h2,h3,h4,h5,h6 
+{
+margin: 0;
+padding: 0;
+
+}
+html ul li 
+{
+margin: 0;
+padding: 0;
+}
+.flipkart-header
+{
+width: 86.25em;
+height: 2.8125em;
+background-color: #2874f0;
+position: sticky;
+top: 0;
+}
+
+
+.flipkart-navbar 
+{
+width: 86.25em;
+height: 7.5em;
+background-color: white;
+
+}
+.flipkart-hero-section 
+{
+width: 81.25em;
+height: 21.875em;
+background-color: white;
+margin-left: 2.5em;
+margin-top: 0.625em;
+
+}
+.flipkart-hero-section img 
+{
+width: 81.25em;
+height: 21.875em;
+}
+.flipkart-content 
+{
+width:86.25em;;
+height: auto;
+margin-top: 0.625em;
+}
+.flipkart-product-section
+{
+width: 85em;
+height: 15.625em;
+margin-left: 0.625em;
+background-color: white;
+margin-top: 0.625em;
+}
+
+.flipkart-footer 
+{
+width: 86.25em;
+height: 21.875;
+background-color: blue;
+margin-top: 0.625em;
+}

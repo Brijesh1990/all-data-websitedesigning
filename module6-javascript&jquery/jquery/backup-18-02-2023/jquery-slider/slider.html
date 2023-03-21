@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='js/jquery.js'></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+            // slide toggle effects
+            $("#navbar h1").click(function(){
+                $("#login").slideToggle(1000);
+            });
+            // image slider 
+            // $("#slide").cycle("fade");
+            $("#slide").cycle(
+                {
+                    fx:"fade,shuffle,zoom,turnLeft,turnRight"
+                });
+
+
+                $("#gall").cycle(
+                {
+                    fx:'fade',
+                    sync:  false, 
+                    delay: 2000 
+                });
+
+                
+                $("#gall1").cycle(
+                {
+                    fx:"fade"
+                });
+
+        })
+
+    </script>
+</head>
+<body>
+
+    <!-- navbar -->
+    <div id="navbar">
+        <h1 align="center"><a href="#">Login here</a></h1>
+    </div>
+    <!-- slider section -->
+
+    <div id="slider">
+        <div id="slide">
+            <img src="https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+
+            <img src="https://images.pexels.com/photos/5083407/pexels-photo-5083407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            
+            <img src="https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            
+        </div>
+    </div>
+    <!-- login section -->
+    <div id="login">
+        <h3>Login Form</h3>
+        <hr>
+        <form method="post">
+            <input type="text" name="email" placeholder="Email">
+            <br><br>
+            
+            <input type="password" name="pass" placeholder="Password">
+            <br><br>
+            <input type="submit" name="sub" value="Login" placeholder="Email">
+            <br><br>
+        </form>
+    </div>
+
+
+    <!-- gallery -->
+
+    <div id="gallery">
+        <h1 align="center">My gallery</h1>
+
+        <div id="gall">
+            <img src="images/1.webp">
+            <img src="images/2.webp">
+            <img src="images/3.webp ">
+        </div>
+
+
+        <div id="gall1">
+            <img src="images/1.webp">
+            <img src="images/2.webp">
+            <img src="images/3.webp ">
+        </div>
+
+    
+    </div>
+    
+</body>
+</html>

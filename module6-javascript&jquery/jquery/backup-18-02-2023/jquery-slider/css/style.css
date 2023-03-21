@@ -1,0 +1,90 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#navbar 
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 8px;
+
+
+}
+
+#navbar a 
+{
+    margin-left: 75%;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#login 
+{
+    width: 30%;
+    height: auto;
+    background-color: gray;
+    color: white;
+    margin: auto;
+    padding: 25px;
+    margin-top: -24%;
+    display: none;
+    position: absolute;
+    margin-left: 35%;
+    z-index: 5 !important;
+
+}
+
+#slider 
+{
+    width: 96%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+ 
+}
+#slide img 
+{
+    width: 100%;
+    height: 350px;
+}
+
+#gallery
+{
+    width: 92%;
+    height: 350px;
+    margin: auto;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 2px lightgray;
+    padding: 25px;
+    margin-top: 5%;
+    /* display: flex;
+    flex-direction: row; */
+    /* display: grid;
+    grid-template-columns: auto auto;
+    */
+
+
+
+}
+
+#gall,#gall1 
+{
+    width: 48%;
+    height: 250px;
+    margin: 5px;
+    float: left;
+    
+}
+#gall img,#gall1 img 
+{
+    width: 100%;
+    height: 250px;
+
+}

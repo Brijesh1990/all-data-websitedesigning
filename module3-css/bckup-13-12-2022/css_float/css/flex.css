@@ -1,0 +1,31 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+
+}
+
+.flex-box 
+{
+    width: 100%;
+    height: auto;
+    margin-left: 2%;
+   
+ 
+    
+}
+.flx 
+{
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    margin: 22px;
+    margin-left: 1%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px aqua;
+    /* float: left; */
+    /* float: right; */
+    float: left;
+
+}

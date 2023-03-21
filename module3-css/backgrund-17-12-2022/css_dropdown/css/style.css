@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: transparent;
+}
+html ul li 
+{
+    margin: 0;
+    padding: 0;
+}
+html h1,h2,h3,h4,h5,h6 
+{
+    margin: 0;
+    padding: 0;
+}
+.impect-header
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    background-color: #00796a;
+    display: flex;
+    flex-direction: row;
+}
+.impect-contact-us
+{
+width: 80%;
+height: auto;
+}
+.impect-contact-us,.fa-inbox
+{
+    margin-left: 2%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: white;
+}
+.impect-contact-us a 
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.impect-social-media
+{
+width: 20%;
+height: auto;
+}
+.impect-social-media,.fa-instagram,.fa-twitter,.fa-linkedin,.fa-facebook 
+{
+    font-size: 17px;
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 3%;
+}
+.impect-navbar
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    background-color:#008375;
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown-menu 
+{
+   position: absolute;
+   display: none;
+   width: 100px !important;
+   margin-left: -2% !important;
+   background-color: #008375;
+   box-shadow: 1px 1px 1px 1px white;
+   padding: 5px 12px;
+    
+}
+.dropdown-menu li 
+{
+    position: relative; 
+    display: block;
+    padding: 5px 5px;
+}
+
+.impect-logo 
+{
+    width: 30%;
+    height: auto;
+    color: white;
+    margin-left: 10%;
+} 
+.impect-logo b 
+{
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-family: cursive;
+}
+.impect-navbar-link 
+{
+    width: 70%;
+    height: auto;
+}
+.impect-navbar-link ul li 
+{
+    display: inline-block;
+    font-size: 17px;
+    padding: 0px 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.impect-navbar-link a 
+{
+    color: white;
+    text-decoration: none;
+}
+.active
+{
+    text-decoration: underline !important;
+}
+.impect-slider 
+{
+    width: 100%;
+    height: auto;
+    background-color: #008375;
+    margin: 0;
+    padding: 35px !important;
+    display: flex;
+    flex-direction: row;
+}
+.slider-txt 
+{
+    width: 50%;
+    height: auto;
+    margin-left: 10%;    
+}
+.slider-txt h1 
+{
+    font-size: 45px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: cursive;
+}
+.slider p 
+{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+#impect-btn 
+{
+    width: 150px;
+    height: auto;
+    border: none;
+    background-color: #008375;
+    border: solid 1px white;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+}
+.slider-txt,fa-play-circle-o
+{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 200;
+
+}
+.slider-img 
+{
+    width: 45%;
+    height: auto;
+}
+.impect-account,.impect-watch-vd
+{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    top: 0 !important;
+    padding: 25px;
+    margin-top: 8%;
+    background-color: #008375;
+    box-shadow: 0px 0px 2px 3px white;
+    display: none;
+    position: absolute;
+    margin-left: 30%;
+    transition: 2s ease all !important;
+}
+.impect-watch-vd video 
+{
+    width: 100%;
+}
+.impect-contect
+{
+    width: 100%;
+    height: auto;
+   
+}
+.content-box 
+{
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    background-color: #008375 !important;
+    /* display: flex;
+    flex-direction: row; */
+    
+}
+.content-box-grid1,
+.content-box-grid2,
+.content-box-grid3,
+.content-box-grid4 
+{
+    width: 20%;
+    height: 200px;
+    background-color: #00796a;
+    padding: 10px;
+    margin-left: 2%;
+    color: white;
+    font-size: 17px;
+    /* display: inline-block !important; */
+    float: left;
+}
+.fa-tv,.fa-diamond,.fa-map-marker,.fa-comment-o,.fa-users
+{
+    font-size: 55px !important;
+    letter-spacing: 3px;
+    color: white;
+    padding: 15px;
+}
+
+.clearfix 
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    top: 0 !important;
+    clear: both !important;
+}
+.impect-our-clients
+{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+  
+}
+.impect-our-clients h1 
+{
+    font-size: 45px;
+    letter-spacing: 3px;
+    color: #00796a;
+}
+
+.impect-footer
+{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    background-color: #00796a;
+    margin-top: 20%;
+}
+.impect-footer p 
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,125 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* background-color: lightgray; */
+    /* -webkit-animation: back-color-anim 2s alternate;
+    -moz-animation: back-color-anim 2s alternate;
+    animation: back-color-anim 2s alternate; */
+
+    background: url('../images/1.jpg') no-repeat;
+    background-size: cover;
+    -webkit-animation: back-color-anim 5s infinite;
+    -moz-animation: back-color-anim 5s infinite;
+    animation: back-color-anim 5s infinite;
+
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    animation-delay: 5s;
+}
+/* @keyframes identifier {
+    
+} */
+
+/* from and to */
+/* @keyframes back-color-anim {
+    from 
+    {
+      margin: auto;
+      padding: auto;
+      top: 0;
+      background-color: blueviolet;  
+    }
+    to 
+    {
+
+        margin: auto;
+        padding: auto;
+        top: 0;
+        background-color: blue;
+    }
+} */
+
+@keyframes back-color-anim {
+    10% 
+    {
+      margin: auto;
+      padding: auto;
+      top: 0;
+      background: url('../images/1.jpg') no-repeat;
+    background-size: cover;
+    }
+    20%
+    {
+
+        margin: auto;
+        padding: auto;
+        top: 0;
+        background: url('../images/2.webp') no-repeat;
+        background-size: cover;
+    }
+    30% 
+    {
+        margin: auto;
+        padding: auto;
+        top: 0;
+        background: url('../images/3.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    40%
+    {
+        margin: auto;
+        padding: auto;
+        top: 0;
+        background: url('../images/4.webp') no-repeat;
+        background-size: cover;
+    }
+    50%
+    {
+        margin: auto;
+        padding: auto;
+        top: 0;
+        background: url('../images/5.webp') no-repeat;
+        background-size: cover;
+    }
+}
+
+.first
+{
+    width: 40%;
+    height: 250px;
+    background-color: black;
+    margin: auto;
+    margin-top: 8%;
+    position: absolute;
+    margin-left: 30%;
+    -webkit-z-index:3;
+    -moz-z-index:3;
+    z-index:3;
+}
+.second
+{
+    width: 40%;
+    height: 250px;
+    background-color: red;
+    margin: auto;
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 35%;
+}
+.third
+{
+    width: 40%;
+    height: 250px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 15%;
+    position: absolute;
+    margin-left: 40%;
+    -webkit-z-index:3;
+    -moz-z-index:3;
+    z-index:3;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <center>
+    <h1>Register Form</h1>
+    <form name="frm" id="frm" action="welcome.html" method="" enctype="multipart/form-data">
+        <label>Enter Email</label>
+        &nbsp;&nbsp;
+        <input type="text" name="email" placeholder="Enter email *" required>
+        <br><br>
+        <label>Enter Password</label>
+        <input type="password" name="password" placeholder="Enter Password *" required>
+        <br><br>
+        <label>Confirm Password</label>
+        <input type="password" name="cpassword" placeholder="Enter Confirm Password *" required>
+        <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Upload photo</label>
+        &nbsp;&nbsp;&nbsp;
+        <input type="file" name="image" placeholder="Enter Image *" required multiple>
+        <br><br>
+        <label>select state</label>
+        <select name="state" placeholder="Enter State *" required>
+            <option value="">-select state-</option>
+            <option value="1">Gujrat</option>
+            <option value="2">Rajsthan</option>
+            <option value="3">Madhya pradesh</option>
+            <option value="4">Uttar Pradesh</option>
+        </select>
+        <br><br>
+        
+        <label>select city</label>
+        <select name="city" placeholder="Enter City *" required>
+            <option value="">-select City-</option>
+            <option value="1">Rajkot</option>
+            <option value="2">Ahemedbad</option>
+            <option value="3">Surat</option>
+            <option value="4">Mirzapur</option>
+            <option value="4">Ghaziabad</option>
+            <option value="4">Mathura</option>
+            <option value="4">Agra</option>
+            <option value="4">Varansi</option>
+            <option value="4">Lucknow</option>
+        </select>
+        <br><br>
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;  &nbsp;&nbsp;
+
+        <input type="submit" name="register" value="Register">
+        <input type="reset" name="reset" value="Reset">
+        
+        <br><br>
+        <b>Already have an account? &nbsp;<a href="login.html">Login here</a></b>
+      
+    </form>
+    </center>
+</body>
+</html>

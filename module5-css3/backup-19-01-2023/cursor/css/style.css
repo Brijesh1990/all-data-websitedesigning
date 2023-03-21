@@ -1,0 +1,36 @@
+*
+{
+      /* -webkit-cursor:progress;
+    cursor: progress !important; */
+    -webkit-cursor:help;
+    -moz-cursor:help !important;
+    cursor: help !important;
+}
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+      /* -webkit-cursor:progress;
+    cursor: progress !important; */
+    -webkit-cursor:all-scroll;
+    cursor: all-scroll !important;
+}
+.dwn
+{
+    width: 55%;
+    height: auto;
+    margin: auto;
+    margin-top: 8%;
+    box-shadow: 2px 2px 2px lightgray;
+    padding: 25px;
+
+}
+
+.anim
+{
+    /* -webkit-cursor:progress;
+    cursor: progress !important; */
+    -webkit-cursor:all-scroll;
+    cursor: all-scroll !important;
+}

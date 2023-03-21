@@ -1,0 +1,39 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.top-header 
+{
+    width: 100%;
+    height: auto;
+    padding: 15px 18px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-bottom: inset 1px lightgray;
+}
+.call-us 
+{
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    margin-left: 15%;
+}
+input[type="text"]
+{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.social-media 
+{
+    font-size: 30px;
+    letter-spacing: 8px;
+}

@@ -1,0 +1,31 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+ 
+}
+
+.content 
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    margin-top: 1%;
+    /* background-color: black; */
+    /* background-color: rgba(255,155,155,1); */
+    /* background-color: #000000; */
+    background-color: #032e0c;
+    /* background-color: #fff; */
+    color: white;
+    /* border: solid 4px red; */
+    /* border: inset 4px red; */
+    /* border: outset 4px black; */
+    /* border: double 4px black; */
+    /* border: dotted 4px black; */
+    /* border-left: double 4px black; */
+    /* border-right: double 4px black; */
+    /* border-bottom: double 4px black; */
+    border-top: double 4px black;
+}

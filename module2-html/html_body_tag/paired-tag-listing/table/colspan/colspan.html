@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        input,select,textarea 
+        {
+            width: 100%;
+            height: auto;
+        }
+        input[type="submit"],input[type="reset"]
+        {
+          width: 30%;
+          height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <form method="post">
+    <table width="50%" align="center" border="0">
+        <caption>Contact with us Form</caption>
+        <tr>
+            <td><input type="text" name="name" placeholder="Enter Your Name *" required></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="email" placeholder="Enter Your Email *" required></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" name="phone" placeholder="Enter Your Phone *" required></td>
+        </tr>
+        <tr>
+            <td><select  name="subject" placeholder="Enter Your subject *" required>
+             <option value="">-select subject-</option>
+             <option value="1">customer care</option>
+             <option value="2">Return product</option>
+             <option value="3">Know privacy & policy</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><textarea  name="message" placeholder="Enter Your Message *" required></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="left"><input type="submit" name="submit" value="Send Now">
+                <input type="reset" name="reset" value="Reset">
+            </td>
+        </tr>
+
+        
+    </table>
+    </form>
+</body>
+</html>

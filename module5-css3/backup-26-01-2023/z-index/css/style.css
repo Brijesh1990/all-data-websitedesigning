@@ -1,0 +1,43 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.first
+{
+    width: 40%;
+    height: 250px;
+    background-color: black;
+    margin: auto;
+    margin-top: 8%;
+    position: absolute;
+    margin-left: 30%;
+    -webkit-z-index:3;
+    -moz-z-index:3;
+    z-index:3;
+}
+.second
+{
+    width: 40%;
+    height: 250px;
+    background-color: red;
+    margin: auto;
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 35%;
+}
+.third
+{
+    width: 40%;
+    height: 250px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 15%;
+    position: absolute;
+    margin-left: 40%;
+    -webkit-z-index:3;
+    -moz-z-index:3;
+    z-index:3;
+}
